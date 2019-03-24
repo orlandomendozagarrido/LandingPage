@@ -43,7 +43,7 @@ class Header extends Component {
             <AppBar
                 position="fixed"
                 style={{
-                    backgroundColor: this.state.headerShow ? '#2f2f2f' : 'transparent',
+                    backgroundColor: this.state.headerShow ? 'blue' : 'transparent',
                     boxShadow: 'none',
                     padding: '10px 0px'
                 }}
@@ -61,7 +61,7 @@ class Header extends Component {
                         onClick={()=> this.toggleDrawer(true)}
                     >
                         <MenuIcon/>
-                    </IconButton> 
+                    </IconButton>
 
                     <SideDrawer
                         open={this.state.drawerOpen}
